@@ -1,0 +1,103 @@
+.item {
+  width: 500px;
+  color: #353935;
+  font-size: 20px;
+  margin: 0 auto;
+  position: relative;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.itemName {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.line {
+  border: 1px solid #f4f4f4;
+  margin-top: 10px;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.deleteButton,
+.editButton,
+.saveButton {
+  padding: 10px 20px;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.deleteButton {
+  background-color: #c45457;
+}
+
+.deleteButton:hover {
+  background-color: #a33a3d;
+}
+
+.deleteButton:active {
+  background-color: #872b2d;
+  transform: scale(0.98);
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+.editButton {
+  background-color: #8f50db;
+}
+
+.editButton:hover {
+  background-color: #753dc1;
+}
+
+.editButton:active {
+  background-color: #5f30a4;
+  transform: scale(0.98);
+}
+
+.saveButton {
+  background-color: #51c46c;
+}
+
+.saveButton:hover {
+  background-color: #3fa458;
+}
+
+.saveButton:active {
+  background-color: #2e8a45;
+  transform: scale(0.98);
+}
+
+.inputContainer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.inputContainer input[type="text"] {
+  border: none;
+  outline: none;
+  padding: 10px;
+  font-size: inherit;
+  font-weight: inherit;
+  color: inherit;
+  background: #f4f4f4;
+  border-radius: 4px;
+  flex-grow: 1;
+}
